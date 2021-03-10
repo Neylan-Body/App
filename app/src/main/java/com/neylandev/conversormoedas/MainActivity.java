@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        //teste
         this.mViewHolder.editValue = findViewById(R.id.edit_value);
         this.mViewHolder.textDolar = findViewById(R.id.text_dolar);
         this.mViewHolder.textEuro = findViewById(R.id.text_euro);
